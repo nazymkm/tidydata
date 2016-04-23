@@ -7,23 +7,23 @@ There are 561 features selected for this database come from the accelerometer an
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-*tBodyAcc-XYZ - body acceleration along XYZ in the time domain
-*tGravityAcc-XYZ - gravity acceleration along XYZ in the time domain
-*tBodyAccJerk-XYZ - body acceleration along XYZ in the time domain (jerk signals)
-*tBodyGyro-XYZ - body angular velocity along XYZ in the time domain
-*tBodyGyroJerk-XYZ - body angular velocity along XYZ in the time domain (jerk signals)
-*tBodyAccMag - body acceleration magnitude the time domain
-*tGravityAccMag - gravity acceleration magnitude the time domain
-*tBodyAccJerkMag - body acceleration magnitude the time domain (jerk signals)
-*tBodyGyroMag - body angular velocity magnitude the time domain
-*tBodyGyroJerkMag - body angular velocity magnitude the time domain (jerk signals)
-*fBodyAcc-XYZ - body acceleration along XYZ in the frequency domain
-*fBodyAccJerk-XYZ -  body acceleration along XYZ in the frequency domain (jerk signals)
-*fBodyGyro-XYZ - body angular velocity along XYZ in the frequency domain
-*fBodyAccMag - body acceleration magnitude the frequency domain
-*fBodyAccJerkMag - body acceleration magnitude the frequency domain (jerk signals)
-*fBodyGyroMag - gravity angular velocity magnitude in the frequency domain
-*fBodyGyroJerkMag - gravity angular velocity magnitude in the frequency domain (jerk signals)
+* tBodyAcc-XYZ - body acceleration along XYZ in the time domain
+* tGravityAcc-XYZ - gravity acceleration along XYZ in the time domain
+* tBodyAccJerk-XYZ - body acceleration along XYZ in the time domain (jerk signals)
+* tBodyGyro-XYZ - body angular velocity along XYZ in the time domain
+* tBodyGyroJerk-XYZ - body angular velocity along XYZ in the time domain (jerk signals)
+* tBodyAccMag - body acceleration magnitude the time domain
+* tGravityAccMag - gravity acceleration magnitude the time domain
+* tBodyAccJerkMag - body acceleration magnitude the time domain (jerk signals)
+* tBodyGyroMag - body angular velocity magnitude the time domain
+* tBodyGyroJerkMag - body angular velocity magnitude the time domain (jerk signals)
+* fBodyAcc-XYZ - body acceleration along XYZ in the frequency domain
+* fBodyAccJerk-XYZ -  body acceleration along XYZ in the frequency domain (jerk signals)
+* fBodyGyro-XYZ - body angular velocity along XYZ in the frequency domain
+* fBodyAccMag - body acceleration magnitude the frequency domain
+* fBodyAccJerkMag - body acceleration magnitude the frequency domain (jerk signals)
+* fBodyGyroMag - gravity angular velocity magnitude in the frequency domain
+* fBodyGyroJerkMag - gravity angular velocity magnitude in the frequency domain (jerk signals)
 
 Different set of variables were estimated from these signals. According to the task we needed only two of them: 
 
@@ -37,32 +37,32 @@ The tidy dataset contains 180 observations of 68 variables:
 ================================================================================
 
    subject
-   person's id
 --------------------------------------------------------------------------------
 
    Storage mode: integer
+   
    Numeric variable from 1 to 30
 
 ================================================================================
 
    activity
-   different type of activity
 --------------------------------------------------------------------------------
 
    Storage mode: integer
+   
    Factor with 6 levels
 
-        Values and labels  |  N   
-                           |               
-   1 'WALKING'             | 30       
-   2 'WALKING_UPSTAIRS'    | 30      
-   3 'WALKING_DOWNSTAIRS'  | 30       
-   4 'SITTING'             | 30       
-   5 'STANDING'            | 30       
-   6 'LAYING'              | 30     
+  Values |    Labels            |  N   
+---------|----------------------|-----               
+   1     |'WALKING'             | 30       
+   2     |'WALKING_UPSTAIRS'    | 30      
+   3     |'WALKING_DOWNSTAIRS'  | 30       
+   4     |'SITTING'             | 30       
+   5     |'STANDING'            | 30       
+   6     |'LAYING'              | 30     
 
 
-##The next 66 **numeric** variables are average values of mean and std features for each activity of a subject:
+###The next 66 **numeric** variables are average values of mean and std features for each activity of a subject:
 
 ================================================================================
 
