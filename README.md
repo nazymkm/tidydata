@@ -23,4 +23,4 @@ In order to work with script you should download and unzip the data in your work
 As long as you have "UCI HAR Dataset" in your working directory, you should be able to run the script. It uses dplyr package, so if you don't have it, please install it.
 
 ##Codebook 
-codebook.md explanes variables we have in the final data, gives brief description and summary of them.
+codebook.md explanes variables in the final data, gives brief description and summary of them.
