@@ -1,5 +1,5 @@
 #Project
-This is the last assignment for the Coursera's Getting and Cleaning data science course. The task is to prepare tidy data set that can be used for analysis later to show our ability to collect, work with, and clean a data set.
+This is the last assignment for the Coursera's Getting and Cleaning data science course. The task is to prepare tidy data set that can be used for analysis later, so we could show our ability to collect, work with, and clean a data set.
 
 ##The Data
 The data used here represent data collected from the accelerometers from the Samsung Galaxy S smartphone. It can be downloaded from here:
